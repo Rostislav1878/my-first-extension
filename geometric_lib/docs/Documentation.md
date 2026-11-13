@@ -1,0 +1,68 @@
+# Документация проекта geometric_lib
+
+## Общее описание решения
+В рамках лабораторной работы №2 по документированию проекта были выполнены следующие действия:
+1. Во все файлы с функциями ('circle.py', 'rectangle.py', 'square.py') были добавлены блоки комментариев, описывающие назначение функции и пример ее вызова - докстринги.
+2. В папке 'docs' был создан файл 'Documentation.md' с полной документацией проекта в нотации Markdown: общим описанием, описанием каждой функции и историей изменения проекта.
+
+## Описание функций
+
+### Файл circle.py
+
+#### Функция area(r)
+Принимает радиус круга: r. Возвращает площадь этого круга.
+    
+> Пример вызова:
+> area(8) == 201.06192982975
+
+#### Функция perimeter(r)
+Принимает радиус круга: r. Возвращает длину окружности (периметр) этого круга.
+
+> Пример вызова:
+> perimeter(8) == 50.265482457437
+
+### Файл rectangle.py
+
+#### Функция area(a, b)
+Принимает длины сторон прямоугольника: a и b. Возвращает площадь этого прямоугольника.
+    
+> Пример вызова:
+> area(4, 12) == 48
+
+#### Функция perimeter(a, b)
+Принимает длины сторон прямоугольника: a и b. Возвращает периметр этого прямоугольника.
+    
+> Пример вызова:
+> perimeter(4, 12) == 32
+
+### Файл square.py
+
+#### Функция area(a)
+Принимает сторону квадрата: a. Возвращает площадь этого квадарата.
+    
+> Пример вызова:
+> area(6) == 36
+
+#### Функция perimeter(a)
+Принимает сторону квадрата: a. Возвращает периметр этого квадрата.
+    
+> Пример вызова:
+> perimeter(6) == 24
+
+## История изменений
+Ветка main:
+- 3e71fe0 (HEAD -> main) добавлен новый файл
+- d078c8d (origin/main, origin/HEAD) L-03: Docs added
+- 8ba9aeb L-03: Circle and square added
+
+Удаленная ветка new_features_477670:
+- 3e71fe0 (HEAD -> main) HEAD@{0}: commit: добавлен новый файл
+- d078c8d (origin/main, origin/HEAD) HEAD@{1}: checkout: moving from new_features_477670 to main
+- 646590c HEAD@{2}: commit: была исправлена ошибка в файле rectangle.py
+- a837663 HEAD@{3}: commit: добавлен новый файл rectangle.py
+- d078c8d (origin/main, origin/HEAD) HEAD@{4}: checkout: moving from main to new_features_477670
+- d078c8d (origin/main, origin/HEAD) HEAD@{5}: clone: from https://github.com/smartiqaorg/geometric_lib
+
+
+
+![](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1920px-Python-logo-notext.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnai)
