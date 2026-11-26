@@ -12,42 +12,42 @@
 #### Функция area(r)
 Принимает радиус круга: r. Возвращает площадь этого круга.
     
-Пример вызова:
-area(8) == 201.06192982975
+> Пример вызова:
+> area(8) == 201.06192982975
 
 #### Функция perimeter(r)
 Принимает радиус круга: r. Возвращает длину окружности (периметр) этого круга.
 
-Пример вызова:
-perimeter(8) == 50.265482457437
+> Пример вызова:
+> perimeter(8) == 50.265482457437
 
 ### Файл rectangle.py
 
 #### Функция area(a, b)
 Принимает длины сторон прямоугольника: a и b. Возвращает площадь этого прямоугольника.
     
-Пример вызова:
-area(4, 12) == 48
+> Пример вызова:
+> area(4, 12) == 48
 
 #### Функция perimeter(a, b)
 Принимает длины сторон прямоугольника: a и b. Возвращает периметр этого прямоугольника.
     
-Пример вызова:
-perimeter(4, 12) == 32
+> Пример вызова:
+> perimeter(4, 12) == 32
 
 ### Файл square.py
 
 #### Функция area(a)
 Принимает сторону квадрата: a. Возвращает площадь этого квадарата.
     
-Пример вызова:
-area(6) == 36
+> Пример вызова:
+> area(6) == 36
 
 #### Функция perimeter(a)
 Принимает сторону квадрата: a. Возвращает периметр этого квадрата.
     
-Пример вызова:
-perimeter(6) == 24
+> Пример вызова:
+> perimeter(6) == 24
 
 ## История изменений
 Ветка main:
@@ -62,3 +62,7 @@ perimeter(6) == 24
 - a837663 HEAD@{3}: commit: добавлен новый файл rectangle.py
 - d078c8d (origin/main, origin/HEAD) HEAD@{4}: checkout: moving from main to new_features_477670
 - d078c8d (origin/main, origin/HEAD) HEAD@{5}: clone: from https://github.com/smartiqaorg/geometric_lib
+
+
+
+![](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1920px-Python-logo-notext.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnai)
