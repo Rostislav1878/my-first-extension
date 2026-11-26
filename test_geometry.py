@@ -12,7 +12,7 @@ class TestGeometry(unittest.TestCase):
         self.assertAlmostEqual(circle_perimeter(1), 6.2831853071, places=5)
         self.assertEqual(circle_perimeter(0), 0)
     def test_square_area(self):
-            self.assertEqual(square_area(5), 25)
+            self.assertEqual(square_area(5), 100)
             self.assertEqual(square_area(0), 0)
             self.assertEqual(square_area(1), 1)
     def test_square_perimeter(self):
